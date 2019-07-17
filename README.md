@@ -37,7 +37,7 @@ import Snackbar from 'viganosnackbar';
 ```
 
 ```
-import {showSnackBar} from '@prince8verma/react-native-snackbar';
+import {showSnackBar} from 'viganosnackbar';
 
 showSnackBar({
             message: "Your custom message",
