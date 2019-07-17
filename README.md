@@ -23,12 +23,12 @@ This looks good in app and works great with minimal implementation of code.
 ## Installation
 
 ```
-npm install @prince8verma/react-native-snackbar --save
+npm install viganosnackbar --save
 ```
 
 ### Implementation
 ```
-import Snackbar from '@prince8verma/react-native-snackbar';
+import Snackbar from 'viganosnackbar';
 
 <View style={{flxe:1}}>
     {/*...........Root App code.......*/}
@@ -56,7 +56,7 @@ showSnackBar({
 ```
 import React, {Component} from "react";
 import {StyleSheet, View, TouchableOpacity} from "react-native";
-import Snackbar, {showSnackBar} from '@prince8verma/react-native-snackbar'
+import Snackbar, {showSnackBar} from 'viganosnackbar'
 
 export default class Demo extends Component {
 
