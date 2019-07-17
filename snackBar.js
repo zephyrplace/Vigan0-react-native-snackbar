@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Animated, StyleSheet, Text, TouchableOpacity, View, PanResponder, Dimensions, Image} from 'react-native';
 import Events from 'react-native-simple-events';
-import WarningLogo from '../react-native-snackbar/icon_warning.png'
+import WarningLogo from './icon_warning.png'
 
 const width = Dimensions.get('window').width;
 
