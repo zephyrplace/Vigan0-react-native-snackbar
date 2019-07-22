@@ -1,6 +1,6 @@
 {
-  "name": "@vigano_snackbar/react-native-snackbar",
-  "version": "1.0.0",
+  "name": "viganosnackbar",
+  "version": "1.0.3",
   "description": "Provide snackbar from top or bottom, as per requirements. Its a simple React-native library, works for both Android and IOS. It also provide swipe feature to hide snackbar.",
   "main": "snackBar.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zephyrplace/vigano_snackbar.git"
+    "url": "https://github.com/zephyrplace/Vigan0-react-native-snackbar.git"
   },
   "author": "“Abreu <“abreu@zp.email”>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zephyrplace/vigano_snackbar/issues"
+    "url": "https://github.com/zephyrplace/Vigan0-react-native-snackbar/issues"
   },
-  "homepage": "https://github.com/zephyrplace/vigano_snackbar/blob/master/%40vigano_snackbar/react-native-snackbar/README.md",
+  "homepage": "https://github.com/zephyrplace/Vigan0-react-native-snackbar/blob/master/README.md",
   "dependencies": {
     "react-native-simple-events": "^1.0.1"
   },

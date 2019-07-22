@@ -109,7 +109,6 @@ export default class SnackBar extends Component {
                     this.snackBarSwipeAbleStyle.opacity = 1;
                     this.snackBarSwipeAbleStyle.left = 0;
                     this.updateSnackBarStyle();
-                    this.setState({show: false});
                 }, duration + 2 * animationTime);
             });
         }
