@@ -190,9 +190,8 @@ export default class SnackBar extends Component {
                         this.snackBar = snackBar;
                     }}
                     {...this.panResponder.panHandlers}>
-                        
                     <View style={[{flex: 10, paddingVertical: 14, justifyContent: 'center', flexDirection: 'row'}]}>
-                    <Image resizeMode="contain" source={WarningLogo} style={responsiveImage} />
+                    <Image resizeMode="contain" source={this.props.source || WarningLogo} style={responsiveImage} />
                        <View style={{ marginLeft: 10, justifyContent: 'center', alignSelf: 'center', width: '90%' }}>
                         <Text numberOfLines={3} style={messageTextStyle}>
                             {message}
